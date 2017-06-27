@@ -1,3 +1,9 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+
+hello:
+    resource: '@AppBundle/Controller/CampController.php'
+    prefix: /
+    type: annotation
